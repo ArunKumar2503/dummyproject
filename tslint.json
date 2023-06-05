@@ -1,0 +1,42 @@
+{
+    "defaultServerity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier",
+        "tslint-config-airbnb"
+    ],
+    "jsRules": {
+        "object-literal-sort-keys": false
+    },
+    "rules": {
+        "trailing-comma": [
+            false
+        ],
+        "import-name": [
+            false
+        ],
+        "variable-name": [
+            false
+        ],
+        "function-name": [
+            false
+        ],
+        "no-unused-expression": [
+            false
+        ],
+        "no-var-requires": [
+            false
+        ],
+        "max-line-length": [ false ],
+        "object-literal-sort-keys": false,
+        "no-console": [
+            false,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ]
+    },
+    "rulesDirectory": []
+}
